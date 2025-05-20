@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 #Stow dotfiles
+sudo pacman -S stow
 git clone https://github.com/ParzivalVulpine/dotfiles
 cd dotfiles/
 ./stow-this.sh
@@ -14,14 +15,12 @@ git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
-
 #Setup Mirrors
 paru -S shiny-mirrors
 
 sudo shiny-mirrors config -c Global, Argentina, Brazil, Colombia, Ecuador, Peru, United States -c South America -p Https, Rsync
 
 sudo shiny-mirrors refresh
-
 
 #Download packages
 #CLI stuff
