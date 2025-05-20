@@ -34,7 +34,7 @@ yay -S --needed aylurs-gtk-shell-git grimblast-git hyprpicker matugen-bin hyprsu
 paru -S hypridle hyprlock ags-hyprpanel-git hyprpaper hyprpicker hyprpolkitagent hyprsysteminfo rofi-wayland ttf-space-mono-nerd
 
 #Desktop Apps
-paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram steam
+paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird telegram-desktop
 
 #Neovim deps
 paru -S fzf curl ripgrep fd tree-sitter-cli
