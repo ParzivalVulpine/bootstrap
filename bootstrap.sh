@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #Stow dotfiles
-sudo pacman -S stow
+sudo pacman -S stow git
 git clone https://github.com/ParzivalVulpine/dotfiles
 cd dotfiles/
 ./stow-this.sh
@@ -10,7 +10,7 @@ sudo pacman -S rustup
 rustup default stable
 
 #Install paru
-sudo pacman -S --needed base-devel git
+sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
