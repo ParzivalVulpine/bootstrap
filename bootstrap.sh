@@ -6,7 +6,7 @@ git clone https://github.com/ParzivalVulpine/dotfiles
 cd dotfiles/
 ./stow-this.sh
 
-pacman -S rustup
+sudo pacman -S rustup
 rustup default stable
 
 #Install paru
@@ -38,3 +38,5 @@ paru -S ghostty google-chrome slack-desktop spotify discord godot thunderbird te
 
 #Neovim deps
 paru -S fzf curl ripgrep fd tree-sitter-cli
+
+sudo reboot now
